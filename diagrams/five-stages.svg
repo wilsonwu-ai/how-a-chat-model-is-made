@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="five-stages-title five-stages-desc" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="five-stages-title">Five stages, one pipeline</title>
+<desc id="five-stages-desc">Pipeline of five stages: tokens, pretraining, fine-tuning, reward model, practice. The first two read the library; the last three teach manners.</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" markerUnits="strokeWidth" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6b7280"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="60" y="108" font-size="44" font-weight="700" fill="#111827" text-anchor="start">Five stages, one pipeline</text>
+<g id="links" stroke="#6b7280" stroke-width="4" fill="none">
+<line x1="324" y1="425" x2="364" y2="425" marker-end="url(#ah)"/>
+<line x1="628" y1="425" x2="668" y2="425" marker-end="url(#ah)"/>
+<line x1="932" y1="425" x2="972" y2="425" marker-end="url(#ah)"/>
+<line x1="1236" y1="425" x2="1276" y2="425" marker-end="url(#ah)"/>
+</g>
+<g id="step-1">
+<rect x="60" y="210" width="264" height="430" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="3"/>
+<text x="84" y="264" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">STAGE 1</text>
+<text x="84" y="322" font-size="32" font-weight="700" fill="#111827" text-anchor="start">Tokens</text>
+<text x="84" y="382" font-size="30" font-weight="400" fill="#111827" text-anchor="start">Text cleaned,</text>
+<text x="84" y="422" font-size="30" font-weight="400" fill="#111827" text-anchor="start">cut into word</text>
+<text x="84" y="462" font-size="30" font-weight="400" fill="#111827" text-anchor="start">pieces</text>
+<text x="84" y="522" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">result</text>
+<rect x="84" y="538" width="216" height="56" rx="10" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
+<text x="192" y="577" font-size="30" font-weight="700" fill="#111827" text-anchor="middle">ready text</text>
+</g>
+<g id="step-2">
+<rect x="364" y="210" width="264" height="430" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="3"/>
+<text x="388" y="264" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">STAGE 2</text>
+<text x="388" y="322" font-size="32" font-weight="700" fill="#111827" text-anchor="start">Pretraining</text>
+<text x="388" y="382" font-size="30" font-weight="400" fill="#111827" text-anchor="start">Guess the next</text>
+<text x="388" y="422" font-size="30" font-weight="400" fill="#111827" text-anchor="start">token, trillions</text>
+<text x="388" y="462" font-size="30" font-weight="400" fill="#111827" text-anchor="start">of times</text>
+<text x="388" y="522" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">result</text>
+<rect x="388" y="538" width="216" height="56" rx="10" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
+<text x="496" y="577" font-size="30" font-weight="700" fill="#111827" text-anchor="middle">base model</text>
+<path d="M60 668 v16 H628 v-16" fill="none" stroke="#6b7280" stroke-width="3"/>
+<text x="344" y="740" font-size="34" font-weight="700" fill="#111827" text-anchor="middle">Reading the library</text>
+<text x="344" y="782" font-size="30" font-weight="400" fill="#6b7280" text-anchor="middle">stages 1 and 2</text>
+</g>
+<g id="step-3">
+<rect x="668" y="210" width="264" height="430" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="3"/>
+<text x="692" y="264" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">STAGE 3</text>
+<text x="692" y="322" font-size="32" font-weight="700" fill="#111827" text-anchor="start">Fine-tuning</text>
+<text x="692" y="382" font-size="30" font-weight="400" fill="#111827" text-anchor="start">Learn from</text>
+<text x="692" y="422" font-size="30" font-weight="400" fill="#111827" text-anchor="start">worked</text>
+<text x="692" y="462" font-size="30" font-weight="400" fill="#111827" text-anchor="start">examples</text>
+<text x="692" y="522" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">result</text>
+<rect x="692" y="538" width="216" height="56" rx="10" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
+<text x="800" y="577" font-size="30" font-weight="700" fill="#111827" text-anchor="middle">assistant</text>
+</g>
+<g id="step-4">
+<rect x="972" y="210" width="264" height="430" rx="12" fill="#f3f4f6" stroke="#0d9488" stroke-width="4"/>
+<text x="996" y="264" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">STAGE 4</text>
+<text x="996" y="322" font-size="32" font-weight="700" fill="#111827" text-anchor="start">Reward model</text>
+<text x="996" y="382" font-size="30" font-weight="400" fill="#111827" text-anchor="start">Learns what</text>
+<text x="996" y="422" font-size="30" font-weight="400" fill="#111827" text-anchor="start">people rank</text>
+<text x="996" y="462" font-size="30" font-weight="400" fill="#111827" text-anchor="start">higher</text>
+<text x="996" y="522" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">result</text>
+<rect x="996" y="538" width="216" height="56" rx="10" fill="#ffffff" stroke="#0d9488" stroke-width="3"/>
+<text x="1104" y="577" font-size="30" font-weight="700" fill="#111827" text-anchor="middle">the coach</text>
+</g>
+<g id="step-5">
+<rect x="1276" y="210" width="264" height="430" rx="12" fill="#f3f4f6" stroke="#d97706" stroke-width="4"/>
+<text x="1300" y="264" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">STAGE 5</text>
+<text x="1300" y="322" font-size="32" font-weight="700" fill="#111827" text-anchor="start">Practice</text>
+<text x="1300" y="382" font-size="30" font-weight="400" fill="#111827" text-anchor="start">Answers scored</text>
+<text x="1300" y="422" font-size="30" font-weight="400" fill="#111827" text-anchor="start">by the coach,</text>
+<text x="1300" y="462" font-size="30" font-weight="400" fill="#111827" text-anchor="start">then improved</text>
+<text x="1300" y="522" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">result</text>
+<rect x="1300" y="538" width="216" height="56" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+<text x="1408" y="577" font-size="30" font-weight="700" fill="#111827" text-anchor="middle">chat model</text>
+<path d="M668 668 v16 H1540 v-16" fill="none" stroke="#6b7280" stroke-width="3"/>
+<text x="1104" y="740" font-size="34" font-weight="700" fill="#111827" text-anchor="middle">Learning manners</text>
+<text x="1104" y="782" font-size="30" font-weight="400" fill="#6b7280" text-anchor="middle">stages 3, 4 and 5</text>
+</g>
+</svg>

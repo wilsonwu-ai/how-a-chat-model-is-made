@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="reward-loop-title reward-loop-desc" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="reward-loop-title">How the coach is made and used</title>
+<desc id="reward-loop-desc">A four-step cycle: write answers, rank them, learn the ranking, update the model. People rank answers to teach the reward model; then the reward model does the scoring while the model is updated, and the loop repeats.</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" markerUnits="strokeWidth" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6b7280"/></marker><marker id="aha" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" markerUnits="strokeWidth" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d97706"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="120" y="108" font-size="44" font-weight="700" fill="#111827" text-anchor="start">How the coach is made and used</text>
+<g id="links" fill="none" stroke-width="4">
+<path d="M680 285 H920" stroke="#6b7280" marker-end="url(#ah)"/>
+<path d="M1200 380 V520" stroke="#6b7280" marker-end="url(#ah)"/>
+<path d="M920 615 H680" stroke="#6b7280" marker-end="url(#ah)"/>
+<path d="M400 520 V380" stroke="#d97706" marker-end="url(#aha)"/>
+</g>
+<text x="424" y="458" font-size="30" font-weight="700" fill="#d97706" text-anchor="start">repeat</text>
+<g id="step-1">
+<rect x="120" y="190" width="560" height="190" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="176" cy="285" r="28" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
+<text x="176" y="297" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">1</text>
+<text x="232" y="262" font-size="34" font-weight="700" fill="#111827" text-anchor="start">Model writes</text>
+<text x="232" y="304" font-size="34" font-weight="700" fill="#111827" text-anchor="start">several answers</text>
+<text x="232" y="352" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">same question, many tries</text>
+</g>
+<g id="step-2">
+<rect x="920" y="190" width="560" height="190" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="976" cy="285" r="28" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
+<text x="976" y="297" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">2</text>
+<text x="1032" y="278" font-size="34" font-weight="700" fill="#111827" text-anchor="start">People rank them</text>
+<text x="1032" y="326" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">best answer to worst</text>
+</g>
+<g id="step-3">
+<rect x="920" y="520" width="560" height="190" rx="12" fill="#f3f4f6" stroke="#0d9488" stroke-width="4"/>
+<circle cx="976" cy="615" r="28" fill="#ffffff" stroke="#0d9488" stroke-width="3"/>
+<text x="976" y="627" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">3</text>
+<text x="1032" y="592" font-size="34" font-weight="700" fill="#111827" text-anchor="start">Reward model</text>
+<text x="1032" y="634" font-size="34" font-weight="700" fill="#111827" text-anchor="start">learns the taste</text>
+<text x="1032" y="682" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">predicts those rankings</text>
+</g>
+<g id="step-4">
+<rect x="120" y="520" width="560" height="190" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="176" cy="615" r="28" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
+<text x="176" y="627" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">4</text>
+<text x="232" y="592" font-size="34" font-weight="700" fill="#111827" text-anchor="start">Model is updated</text>
+<text x="232" y="634" font-size="34" font-weight="700" fill="#111827" text-anchor="start">to score higher</text>
+<text x="232" y="682" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">the coach does the scoring</text>
+<text x="800" y="448" font-size="30" font-weight="700" fill="#111827" text-anchor="middle">Stage 4 builds the coach.</text>
+<text x="800" y="488" font-size="30" font-weight="400" fill="#6b7280" text-anchor="middle">Stage 5 runs the loop.</text>
+</g>
+<line x1="120" y1="748" x2="1480" y2="748" stroke="#9ca3af" stroke-width="2"/>
+<rect x="120" y="772" width="32" height="32" rx="6" fill="#f3f4f6" stroke="#9ca3af" stroke-width="3"/>
+<text x="168" y="800" font-size="30" font-weight="400" fill="#111827" text-anchor="start">the chat model</text>
+<rect x="520" y="772" width="32" height="32" rx="6" fill="#f3f4f6" stroke="#0d9488" stroke-width="4"/>
+<text x="568" y="800" font-size="30" font-weight="400" fill="#111827" text-anchor="start">the coach (reward model)</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="likely-vs-true-title likely-vs-true-desc" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="likely-vs-true-title">Likely words are not the same as true words</title>
+<desc id="likely-vs-true-desc">A question branching into the most likely words and the true answer, with the gap between them marked as where a made-up detail appears.</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" markerUnits="strokeWidth" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#111827"/></marker><marker id="aht" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" markerUnits="strokeWidth" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0d9488"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" markerUnits="strokeWidth" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d97706"/></marker></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="100" y="108" font-size="44" font-weight="700" fill="#111827" text-anchor="start">Likely words are not the same as true words</text>
+<g id="links" fill="none" stroke-width="4">
+<path d="M400 420 H492 Q500 420 500 412 V303 Q500 295 508 295 H620" stroke="#111827" marker-end="url(#ah)"/>
+<path d="M400 500 H492 Q500 500 500 508 V617 Q500 625 508 625 H620" stroke="#0d9488" marker-end="url(#aht)"/>
+</g>
+<g id="step-1">
+<rect x="100" y="350" width="300" height="220" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="3"/>
+<text x="250" y="448" font-size="36" font-weight="700" fill="#111827" text-anchor="middle">A question</text>
+<text x="250" y="494" font-size="30" font-weight="400" fill="#6b7280" text-anchor="middle">the model must</text>
+<text x="250" y="534" font-size="30" font-weight="400" fill="#6b7280" text-anchor="middle">answer it</text>
+</g>
+<g id="step-2">
+<rect x="620" y="190" width="820" height="210" rx="12" fill="#f3f4f6" stroke="#111827" stroke-width="4"/>
+<text x="660" y="260" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">Path A</text>
+<text x="660" y="314" font-size="36" font-weight="700" fill="#111827" text-anchor="start">The most likely next words</text>
+<text x="660" y="362" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">fluent and confident</text>
+</g>
+<g id="step-3">
+<rect x="620" y="520" width="820" height="210" rx="12" fill="#f3f4f6" stroke="#0d9488" stroke-width="4"/>
+<text x="660" y="590" font-size="30" font-weight="700" fill="#6b7280" text-anchor="start" letter-spacing="2">Path B</text>
+<text x="660" y="644" font-size="36" font-weight="700" fill="#111827" text-anchor="start">The true answer</text>
+<text x="660" y="692" font-size="30" font-weight="400" fill="#6b7280" text-anchor="start">needs facts the model may not have</text>
+</g>
+<g id="step-4">
+<path d="M900 424 V496" stroke="#d97706" stroke-width="4" stroke-dasharray="10 8" fill="none" marker-start="url(#ahg)" marker-end="url(#ahg)"/>
+<text x="940" y="472" font-size="32" font-weight="700" fill="#d97706" text-anchor="start">where a made-up detail appears</text>
+</g>
+</svg>

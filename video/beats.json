@@ -1,0 +1,21 @@
+{
+  "slug": "how-a-chat-model-is-made",
+  "voice": "Samantha",
+  "rate": 175,
+  "gif_start": 0,
+  "gif_len": 12,
+  "beats": [
+    {"id": "b01", "caption": "You asked. It answered. Who taught it?", "narration": "You type a question and get an answer in your tone. Nobody typed that answer in. Five stages did.", "min_s": 10},
+    {"id": "b02", "caption": "A student who read the whole library first", "narration": "Picture a student who read the whole library before learning any manners. That is a chat model. Reading is first. Manners come later.", "min_s": 10},
+    {"id": "b03", "caption": "Stage 1: text becomes tokens", "narration": "Stage one. Text is collected, cleaned, and cut into tokens, small word pieces. The post argues quality matters more than sheer volume.", "min_s": 10.5},
+    {"id": "b04", "caption": "Stage 2: guess the next word, a trillion times", "narration": "Stage two is pretraining. The only job is guessing the next token, over and over, across trillions of tokens.", "min_s": 11},
+    {"id": "b05", "caption": "The result: brilliant autocomplete, not an assistant", "narration": "What comes out is a base model. Brilliant autocomplete. Ask it a question and it may just continue your sentence.", "min_s": 10},
+    {"id": "b06", "caption": "Stage 3: show it how to behave", "narration": "Stage three. Supervised fine-tuning. Thousands of worked examples of prompts and good responses teach it the shape of being helpful.", "min_s": 11},
+    {"id": "b07", "caption": "Stage 4: teach a coach what better means", "narration": "Stage four. People rank several answers. A separate model, the reward model, learns to predict those rankings. Now it can score millions.", "min_s": 11},
+    {"id": "b08", "caption": "Stage 5: practice against the coach", "narration": "Stage five. Generate, score with the reward model, update, repeat. This loop is what people mean by reinforcement learning from human feedback.", "min_s": 11.5},
+    {"id": "b09", "caption": "Likely words are not true words", "narration": "It was optimized to produce likely text, not true text. When it lacks the facts, it still writes fluently. Fluency is not evidence.", "min_s": 11},
+    {"id": "b10", "caption": "Data quality often beats data volume", "narration": "The post's recurring lesson: better data beats more data at every stage.", "min_s": 8},
+    {"id": "b11", "caption": "Five stages, one pipeline", "narration": "Tokens. Pretraining. Fine-tuning. A reward model. Practice. Five stages, one pipeline.", "min_s": 10},
+    {"id": "b12", "caption": "Read the article, build a tiny one", "narration": "The realistic next step is building a tiny stage-two model yourself. The article links where to start.", "min_s": 8.5}
+  ]
+}
